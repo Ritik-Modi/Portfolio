@@ -6,7 +6,7 @@ import { FaFileDownload } from "react-icons/fa";
 function ResumeDownloader() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/Resume.pdf";
+    link.href = "/Resume.pdf";
     link.download = "Ritik-Modi-Resume.pdf";
     document.body.appendChild(link);
     link.click();
